@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod test {
     #[test]
-    fn should_pass() {
-        assert_eq!(2, 1 + 1);
+    fn shouled_fail() {
+        assert_eq!(3, 1 + 1);
     }
 }
